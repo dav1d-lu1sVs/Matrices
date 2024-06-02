@@ -4,6 +4,6 @@
 #define M 10
 
 int main(int argc, char const *argv[]) {
- float matriz[][10]
+ float matriz n[][10]
  printf("Bienvenido a la calculadora de promedios según el examen que quieras mostrar\n");
  agregarnota
