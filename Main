@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "lecturas.h"
 #include "funciones.h"
+#define MAXALU 10
 
 int main(int argc, char const *argv[]) {
  int estudiantes, examen;
