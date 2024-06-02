@@ -1,1 +1,5 @@
-dasdsa
+#include <stdio.h>
+#include "lecturas.h"
+#include "funciones.h"
+
+int main(arg
