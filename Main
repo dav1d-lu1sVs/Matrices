@@ -5,10 +5,15 @@
 
 int main(int argc, char const *argv[]) {
  int estudiantes, examen;
- float ALU[estudiantes][examen];
+ float vector[examen],ALU[estudiantes][examen];
  printf("Bienvenido a la calculadora de promedios según el examen que quieras mostrar\n");
- leerEnteroEntre("Ingrse la cantidad de alumnos del curso entre 1 y 10: \n", 1, 10);
+ leerEnteroEntre("Ingrse la cantidad de alumnos del curso entre 1 y 10: \n", 1, MAXALU);
 leerEnteroEntre("Ingrse la cantidad de exámenes dados en el curso entre 1 y 20: \n", 1, 20);
  agregarnota(ALU[estudiantes][examen], estudiantes, examen);
  imprimirnota(ALU[estudiantes][examen], estudiantes, examen);
- promedioEstudiantes(
+ promedioEstudiantes(ALU[estudiantes][examen], estudiantes, examen);
+ promedioExamen(ALU[estudiantes][examen], estudiantes, examen, vector[examen]);
+ MayorNotaExamen(vector[examen], examen);
+
+ Return 0;
+}
