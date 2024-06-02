@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "lecturas.h"
 #include "funciones.h"
-#define M 10
+#define M 20
 
 int main(int argc, char const *argv[]) {
- float matriz n[][10]
+ float matriz n[][10];
  printf("Bienvenido a la calculadora de promedios según el examen que quieras mostrar\n");
- agregarnota
+ agregarnota(matriz n[][M],
