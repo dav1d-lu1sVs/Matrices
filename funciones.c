@@ -45,12 +45,12 @@ void promedioExamen(const float n[][N], int estudiantes, int examen, float vecto
     }
 }
 
-int MayorNotaExamen(const float vector[], int examen){
-    int max
+float MayorNotaExamen(const float vector[], int examen){
+    float max
     for(int i = 1; i < numEstudiantes; i++){
         if(max < vector[i]){
             max=vector;
         }
     }
-    printf("\nExamen que tuvo mayor promedio de calificación es: %i", max);
+    printf("\nExamen que tuvo mayor promedio de calificación es: %.2f", max);
 }
